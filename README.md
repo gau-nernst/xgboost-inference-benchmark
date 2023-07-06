@@ -20,7 +20,7 @@ Using conda
 ```bash
 conda create -n xgboost python=3.9
 conda activate xgboost
-conda install numpy scipy pandas tabulate
+conda install numpy scipy scikit-learn pandas tabulate
 
 pip install xgboost
 conda install onnx onnxruntime -c conda-forge
